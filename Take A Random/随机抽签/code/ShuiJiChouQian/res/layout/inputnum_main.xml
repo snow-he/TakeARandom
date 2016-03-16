@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37d083"
+    tools:context="${relativePackage}.${activityClass}" >
+    <com.google.android.gms.ads.doubleclick.PublisherAdView
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@+string/ad_unit_id" />
+
+    <TextView
+        android:id="@+id/numinputtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/playernuminput"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/playernuminput"
+        android:text="@string/playernum"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/playernuminput"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#15dafd"
+        android:inputType="number" />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playernuminput"
+        android:text="@string/inputmessage"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textColor="#ff0000"/>
+
+    <Button
+        android:id="@+id/inputok1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/inputok1"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

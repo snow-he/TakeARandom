@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Take a Random</string>
+    <string name="playernum">player number:</string>
+    <string name="start1">start</string>
+    <string name="inputnotice">the input number must bigger than 1</string>
+    <string name="choosedall">all number have been choosed!</string>
+    <string name="choosedorder">NO.</string>
+    <string name="choosedordermessage"> Result:</string>
+    <string name="choosetype1">Reapt Draw</string>
+    <string name="choosetype2">No-repeat Draw</string>
+    <string name="startchoose">startchoose</string>
+    <string name="inputmessage">input n，you can draw out the numerical value between 1~n.</string>
+    <string name="nameinputswitch">input infomation</string>
+    <string name="addbt">add</string>
+    <string name="addsuccess">add success!</string>
+    <string name="inputnotnull">not input number!</string>
+    <string name="addenough">add enough!</string>
+    <string name="addnotenough">add not enough!</string>
+    <string name="inputok1">next</string>
+    <string name="result">result</string>
+    <string name="resultinfo">The selected number is </string>
+    <string name="ok">ok</string>
+    
+    <string name="ad_unit_id">ca-app-pub-5905658608311904/8871033076</string>
+
+</resources>

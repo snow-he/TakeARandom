@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">隨機抽籤</string>
+    <string name="playernum">輸入抽籤數量:</string>
+    <string name="start1">開始</string>
+    <string name="inputnotice">輸入的數目必須大於11！</string>
+    <string name="choosedall">所有的號碼都被抽籤了!</string>
+    <string name="choosedorder">第</string>
+    <string name="choosedordermessage">次結果：</string>
+    <string name="choosetype1">可重複抽取</string>
+    <string name="choosetype2">不可重複抽取</string>
+    <string name="startchoose">開始抽取</string>
+    <string name="inputmessage">輸入數字n，可以抽取出1~n之間的號碼。</string>
+    <string name="nameinputswitch">輸入號碼信息</string>
+    <string name="addbt">添加</string>
+    <string name="addsuccess">添加成功！</string>
+    <string name="inputnotnull">沒有輸入數量!</string>
+    <string name="addenough">添加的數量已經夠了!</string>
+    <string name="addnotenough">請添加足夠的號碼信息!</string>
+    <string name="inputok1">確定</string>
+    <string name="result">結果</string>
+    <string name="resultinfo">本次被選中的是</string>
+    <string name="ok">確定</string>
+    
+
+</resources>
